@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/app_logo"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/logo"
+        android:layout_width="257dp"
+        android:layout_height="275dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/logo_new_new_foreground" />
 
     <EditText
         android:id="@+id/edt_email"
@@ -22,7 +22,7 @@
         android:layout_marginTop="10dp"
         android:hint="Email"
         android:paddingLeft="12dp"
-        android:background="@drawable/edt_background"
+        android:background="@drawable/form_input"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"/>
 
@@ -34,7 +34,7 @@
         android:layout_marginTop="10dp"
         android:hint="Password"
         android:paddingLeft="12dp"
-        android:background="@drawable/edt_background"
+        android:background="@drawable/form_input"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"/>
 
@@ -43,21 +43,23 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/edt_pass"
-        android:text="Log In"
-        android:background="@drawable/btn_background"
-        android:textSize="18sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_draw"
+        android:text="Log In"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnSignup"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogin"
-        android:text="Sign Up"
-        android:background="@drawable/btn_background"
-        android:textSize="18sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_draw"
+        android:text="Sign Up"
+        android:textSize="18sp" />
 
 </RelativeLayout>
